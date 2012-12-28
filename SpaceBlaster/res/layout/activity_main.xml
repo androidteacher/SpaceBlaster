@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   <com.beck.spaceblaster.Panel android:id="@+id/SurfaceView01" android:layout_width="wrap_content" 
+
+android:layout_height="wrap_content" >
+</com.beck.spaceblaster.Panel>
+    <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="top|center"
+       android:text="TextView" />
+
+  <Button
+       android:id="@+id/button1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom|right"
+       android:text="Right" />
+   <Button
+       android:id="@+id/button2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom|left"
+       android:text="Left" />
+
+   <Button
+       android:id="@+id/button3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom|center"
+       android:text="Thrusters" />
+
+   
+
+</FrameLayout>

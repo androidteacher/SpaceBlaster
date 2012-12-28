@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">SpaceBlaster</string>
+    <string name="hello_world">
+        
+    </string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">SpaceBlaster</string>
+
+</resources>
