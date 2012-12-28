@@ -201,14 +201,14 @@ public class Panel extends SurfaceView implements SurfaceHolder.Callback{
 			}
 	
 		   //Set X Boundary for ship
-		   if((positionx + speedx ) > (x - 200) || (positionx + speedx) < 0 +200) 
+		   if((positionx + speedx ) > (x - 20) || (positionx + speedx) < 0) 
 		   		{
 		
 		   speed = 0;
 		   	 
 		   		}
 		  //Set Y Boundary for ship
-		   if((positiony - speedy ) > (y - 50) || (positiony - speedy) < (0 + 20)) 
+		   if((positiony - speedy ) > (y -20)  || (positiony - speedy) < 0) 
 			   {
 				
 			   speed = 0;
