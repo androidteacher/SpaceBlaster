@@ -159,8 +159,7 @@ public class Panel extends SurfaceView implements SurfaceHolder.Callback{
 		
 		
 	       
-		   //Current rotation value
-		   m.postRotate(rotation, bm.getWidth()/2, bm.getHeight()/2);
+		   
 		   
 		   //This is where we define the center of the screen.
 		   //x = canvas.getWidth();   --Look in onDraw
@@ -255,9 +254,9 @@ public class Panel extends SurfaceView implements SurfaceHolder.Callback{
 		   }
 		   
 		   
-	      
+		 //Current rotation value
+		   m.postRotate(rotation, bm.getWidth()/2, bm.getHeight()/2);
 	       m.postTranslate(positionx, positiony);
-
 	        // This method sets the value of of our **global** variable (position) to the **local** variable (m)
 	        position.set(m);
 
